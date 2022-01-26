@@ -6,14 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kontaktuak - Marketing</title>
 	<link rel="icon" href="/assets/icon.png">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link id="style-default" rel="stylesheet" type="text/css" href="/css/style.css">
+	<link id="style-dark" rel="stylesheet" type="text/css" href="/css/dark.css" disabled="disabled">
 	<link rel="stylesheet" type="text/css" href="/css/mobile.css" media="screen and (max-width : 568px)">
 	<script type="text/javascript" src="/js/mobile.js"></script>
+	<script type="text/javascript" src="/js/theme.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
+	<a id="waina" class='kulbtn'onclick="blackWhite()" href="javascript:void(0);"><ion-icon name="contrast-outline"></ion-icon></a>
 	<div id="header">
 		<a href="/index.html" class="logo">
-			<img src="/assets/logo.jpg" alt="">
+			<img src="/assets/TX.png" alt="">
 		</a>
 		<ul id="navigation">
 			<li>
@@ -46,19 +50,19 @@
 	</div>
 	<div id="footer">
 		<div>
-			<p>&copy; 2023 by Mustacchio. All rights reserved.</p>
+			<p>&copy; 2022 @Marketing. All rights reserved.</p>
 			<ul>
 				<li>
-					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+					<a href="#" id="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
 				</li>
 				<li>
-					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+					<a href="#" id="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
 				</li>
 				<li>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+					<a href="#" id="googleplus"><ion-icon name="logo-google"></ion-icon></a>
 				</li>
 				<li>
-					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+					<a href="#" id="pinterest"><ion-icon name="logo-pinterest"></ion-icon></a>
 				</li>
 			</ul>
 		</div>

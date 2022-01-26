@@ -15,9 +15,26 @@
 		 url('/fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
 		 url('/fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
 }
+
 *{
 	transition: all .3s;
 }
+
+
+body::-webkit-scrollbar {
+	width: 7px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: white;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	border: 2px solid black;  /* creates padding around scroll thumb */
+}
+
 
 body {
 	background: #fff; /* Backgroud Color*/
@@ -48,6 +65,15 @@ p a:hover {
 	text-align: center;
 	width: 960px;
 }
+#waina{
+	font-size: 2em;
+	color: rgb(138, 138, 138);
+	float: right;
+	padding-top: 1%;
+	margin-right: 1%;
+
+}
+
 #header a.logo {
 	display: block;
 	margin: 0 auto;
@@ -91,7 +117,7 @@ p a:hover {
 	text-align: center;
 }
 #body h1 {
-	color: #fff;
+	color: #292929;
 	display: inline;
 	font-family: poller_oneregular;
 	font-size: 35px;
@@ -101,7 +127,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body h1 span {
-	background: #252525;
+	background: #fff;
 	display: inline-block;
 	padding: 15px 28px 12px;
 }
@@ -352,14 +378,6 @@ p a:hover {
 }
 
 
-
-
-
-
-
-
-
-
 #footer {
 	background: #252525;
 	margin: 0;
@@ -370,13 +388,6 @@ p a:hover {
 	overflow: hidden;
 	padding: 0;
 	width: 960px;
-}
-
-.kulbtn {
-	font-size: 2em;
-	float: right;
-	overflow: hidden;
-	padding: 1000;
 }
 
 #footer div p {
@@ -409,27 +420,27 @@ p a:hover {
 	color: #00acee
 }
 #footer div ul li #twitter:hover {
-	font-size: 2.1em;
+	font-size: 1.3em;
 	color: #fff;
 }
 #footer div ul li #facebook {
 	color: #3b5998;
 }
 #footer div ul li #facebook:hover {
-	font-size: 2.1em;
+	font-size: 1.3em;
 	color: #fff;
 }
 #footer div ul li #googleplus {
 	color: #db4a39;
 }
 #footer div ul li #googleplus:hover {
-	font-size: 2.1em;
+	font-size: 1.3em;
 	color: #fff;
 }
 #footer div ul li #pinterest {
 	color: #E60023;
 }
 #footer div ul li #pinterest:hover {
-	font-size: 2.1em;
+	font-size: 1.3em;
 	color: #fff;
 }
