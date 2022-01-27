@@ -1,0 +1,37 @@
+
+th {
+    border-style: solid  #7c7c7c;
+    text-align: center;
+    border-width: 1px;
+
+}
+
+table {
+    border-style:outset;
+    text-align: center;
+    border-width: 5px;
+}
+
+td {
+    border-style: solid  #7c7c7c;
+    text-align: center;
+    border-width: 1px;  
+}
+
+th{
+    background-color: #7c7c7c;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+table tr td:first-of-type {
+    background-color: #7c7c7c !important;
+}
+
+tr:nth-child(5) {
+    background-color: #7c7c7c;
+    color:rgb(0, 0, 0);
+}
+
+th,td{
+    padding: 5px; 
+}

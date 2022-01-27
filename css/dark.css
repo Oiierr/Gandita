@@ -91,11 +91,57 @@ p a:hover {
 #header ul li a:hover, #header ul li.selected a {
 	color: #00e5ff;
 }
+
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+  
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	font-family: inherit;
+  }
+  
+ .dropdown-klaseak {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 800;
+  margin: 10;
+  padding: 0 360px 100px;
+
+}
+
+.dropdown-klaseak a {
+	float: none;
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+.klaseak:hover .dropdown-klaseak {
+	display: block;
+}
+
+
 #body {
 	margin: 0;
 	padding: 0 0 30px;
 	text-align: center;
 }
+
+#body h2 {
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
 #body h1 {
 	color: #fff;
 	display: inline;
@@ -148,6 +194,18 @@ p a:hover {
 	margin: 0 0 30px;
 	padding: 8px 27px 10px;
 }
+
+#body > div .article h4 {
+	background: #ffffff;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+	padding: 8px 27px 10px;
+}
+
 #body > div .article p {
 	margin: 0 0 30px;
 }
@@ -157,7 +215,7 @@ p a:hover {
 	width: 940px;
 }
 #body div ul li {
-	border: 2px solid #1a1a1a;
+	border: 2px solid #ffffff;
 	display: block;
 	list-style: none;
 	margin: 0 0 13px;
@@ -185,7 +243,7 @@ p a:hover {
 #body div ul li div {
 	float: left;
 	margin: 0;
-	padding: 63px 0 20px;
+	padding: 10px 0 20px;
 	width: 558px;
 }
 #body div ul li div h3 {
@@ -197,9 +255,7 @@ p a:hover {
 	padding: 0;
 	text-transform: uppercase;
 }
-#body div ul li div p {
-	padding: 30px 30px 18px;
-}
+
 #body div ul li div a.more {
 	background: #000;
 	color: #fff;
@@ -212,11 +268,17 @@ p a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
 #body div ul li div a.more:hover {
-	color: #fff;
+	color: #252525;
 	background: #fff;
-	border: 2px solid #fff;
+	border: 2px solid #252525;
 }
+
+#body div ul li div p {
+	padding: 30px 30px 18px;
+}
+
 #body #featured {
 	margin: 0 0 13px;
 	padding: 0;
@@ -257,7 +319,7 @@ p a:hover {
 	display: inline-block;
 	font-size: 20px;
 	margin: 7px 0;
-	padding: 12px 27px;
+	padding: 15px 27px;
 }
 #body #featured div a {
 	background: #0ba39c;
@@ -320,8 +382,8 @@ p a:hover {
 	width: 620px;
 }
 #body form input, #body form textarea {
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid rgb(119, 119, 119);
+	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: normal;
@@ -330,6 +392,7 @@ p a:hover {
 	text-align: center;
 	text-transform: uppercase;
 	width: 596px;
+	border-radius: 5%;
 }
 #body form textarea {
 	height: 175px;
@@ -337,7 +400,7 @@ p a:hover {
 	resize: none;
 }
 #body form #send {
-	background: #fff;
+	background: #252525;
 	color: #fff;
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 15px;
@@ -345,9 +408,10 @@ p a:hover {
 	display: inline-block;
 	padding: 20px 28px;
 	width: auto;
+	border-radius: 5%;
 }
 #body form #send:hover {
-	background: #fff;
+	background: #303030;
 	color: #fff;
 	cursor: pointer;
 }

@@ -1,6 +1,7 @@
 <!doctype html>
-<!-- Website Template by freewebsitetemplates.com -->
+
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +13,11 @@
 	<script type="text/javascript" src="/js/theme.js"></script>
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
+
 <body>
-	<a id="waina" class='kulbtn'onclick="blackWhite()" href="javascript:void(0);"><ion-icon name="contrast-outline"></ion-icon></a>
+	<a id="waina" class='kulbtn' onclick="blackWhite()" href="javascript:void(0);">
+		<ion-icon name="contrast-outline"></ion-icon>
+	</a>
 	<div id="header">
 		<a href="/index.html" class="logo">
 			<img src="/assets/TX.png" alt="">
@@ -25,8 +29,12 @@
 			<li>
 				<a href="/sites/berriak.html">Berriak</a>
 			</li>
-			<li>
+			<li class='klaseak'>
 				<a href="/sites/Klaseak.html">Klaseak</a>
+				<div class="dropdown-klaseak">
+					<a href="/sites/klaseak-erdi.html">Erdi Maila</a>
+					<a href="/sites/klaseak-goi.html">Goi Maila</a>
+				</div>
 			</li>
 			<li class="selected">
 				<a href="/sites/covid.html">Covid</a>
@@ -37,43 +45,57 @@
 		</ul>
 	</div>
 	<div id="body">
-		<h1><span>blog</span></h1>
+		<h1><span>Covid</span></h1>
 		<div>
 			<ul>
 				<li>
 					<a href="/sitest/berriak-post.html" class="figure">
-						<img src="/assets/cutting-mustache.jpg" alt="">
+						<img src="/assets/covid.jpg " width="375" height="447" alt="">
 					</a>
-					<div>
-						<h3>why i grew a mustache</h3>
+					<div style='white-space: pre-line'>
+						<h3>Prebentzio-neurri orokorrak</h3>
 						<p>
-							Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What’s more, they’re absolutely free! You can do a lot with them. You can modify them.
+							1. Eraman maskara beti.
+							2. Eztul edo doministiku egitean, ez kendu maskara, eta estali ahoa eta sudurra ukondoa
+							tolestuta.
+							3. Ahal den guztietan, gutxienez 1,2 metroko distantzia mantentzea beste pertsona batzuekin.
+							4. Erabili eta botatzeko paperezko musuzapiak erabili ondoren, paperontzi itxietara bota.
+							5. Saihestu ahoa, sudurra edo begiak ukitzea.
+							6. Ahal den neurrian, ekipoen eta gailuen erabilera partekatua saihestea (ordenagailuak,
+							telefonoak, etab.).
 						</p>
-						<a href="/sitest/berriak-post.html" class="more">read this</a>
+						<a href="https://www.osakidetza.euskadi.eus/inicio/" class="more">read this</a>
 					</div>
 				</li>
 				<li>
 					<a href="/sitest/berriak-post.html" class="figure">
-						<img src="/assets/in-the-country.jpg" alt="">
+						<img src="/assets/Niño_con_libro.jpg" width="375" height="339" alt="">
 					</a>
-					<div>
-						<h3>in the country</h3>
+					<div style='white-space: pre-line'>
+						<h3>Institutora etorri aurretik</h3>
 						<p>
-							Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What’s more, they’re absolutely free! You can do a lot with them. You can modify them.
+							1. Ez dira zentrora joango Covid-19arekin bateragarriak diren sintomak dituzten ikasleak,
+							irakasleak eta beste profesional batzuk (sukarra edo tenperatura 37oC-tik gorakoa, eztul
+							lehorra, eztarriko mina, arnasteko zailtasuna eta usaimena eta gustua galtzea), ezta
+							Covid-19aren diagnostikoaren ondorioz isolatuta daudenak edo berrogeialdian daudenak ere,
+							zentrora joan behar izanez gero sintoma bateragarriak dituen pertsona batekin kontaktuan
+							egon direlako.
+							2. Garaiz iristea
 						</p>
-						<a href="/sitest/berriak-post.html" class="more">read this</a>
+						<a href="https://www.osakidetza.euskadi.eus/inicio/" class="more">read this</a>
 					</div>
 				</li>
 				<li>
 					<a href="/sitest/berriak-post.html" class="figure">
-						<img src="/assets/mustache-brothers.jpg" alt="">
+						<img src="/assets/Mucha gente.jpg" width="375" height="210" alt="">
 					</a>
-					<div>
-						<h3>the mustache brothers</h3>
+					<div style='white-space: pre-line'>
+						<h3>Zentrotik ateratzean</h3>
 						<p>
-							Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What’s more, they’re absolutely free! You can do a lot with them. You can modify them.
+							1. Bi ateak irteerarako erabili ahal izango dira. Ahal dela, ez gurutzatu.
+							Etxerako bidea, pilaketarik ez sortzea.
 						</p>
-						<a href="/sitest/berriak-post.html" class="more">read this</a>
+						<a href="https://www.osakidetza.euskadi.eus/inicio/" class="more">read this</a>
 					</div>
 				</li>
 			</ul>
@@ -84,19 +106,28 @@
 			<p>&copy; 2022 @Marketing. All rights reserved.</p>
 			<ul>
 				<li>
-					<a href="#" id="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+					<a href="#" id="twitter">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
 				</li>
 				<li>
-					<a href="#" id="facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+					<a href="#" id="facebook">
+						<ion-icon name="logo-facebook"></ion-icon>
+					</a>
 				</li>
 				<li>
-					<a href="#" id="googleplus"><ion-icon name="logo-google"></ion-icon></a>
+					<a href="#" id="googleplus">
+						<ion-icon name="logo-google"></ion-icon>
+					</a>
 				</li>
 				<li>
-					<a href="#" id="pinterest"><ion-icon name="logo-pinterest"></ion-icon></a>
+					<a href="#" id="pinterest">
+						<ion-icon name="logo-pinterest"></ion-icon>
+					</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </body>
+
 </html>
