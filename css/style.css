@@ -423,8 +423,9 @@ p a:hover {
 }
 
 #berria1{
-	border: 2px solid #252525;
+	border: 2px solid #000000;
 	box-sizing: content-box;
+	
 }
 
 .berriak-post{
@@ -441,6 +442,7 @@ p a:hover {
 
 
 #footer {
+	margin-bottom: 0px;
 	background: #252525;
 	margin: 0;
 	padding: 36px 0 42px;
